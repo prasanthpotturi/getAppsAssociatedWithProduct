@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ME-extractRequestPayload">
+    <DisplayName>ME-extractRequestPayload</DisplayName>
+    <Source>request</Source>
+    <FormParam name="mgmturl">
+        <Pattern>{mgmturl}</Pattern>
+    </FormParam>
+    <FormParam name="org">
+        <Pattern>{org}</Pattern>
+    </FormParam>
+    <FormParam name="product">
+        <Pattern>{product}</Pattern>
+    </FormParam>
+    <FormParam name="appcounter">
+        <Pattern>{appcounter}</Pattern>
+    </FormParam>
+    <Header name="Authorization"/>
+</ExtractVariables>

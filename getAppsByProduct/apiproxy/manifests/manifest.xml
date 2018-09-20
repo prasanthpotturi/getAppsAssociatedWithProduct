@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-sendResponse" version="SHA-512:006b5d4b6f9bfe32aab49f091abc4f33eea3f08b736b4607a5f792e6b25bb9b73f8a13598262250f8d2fa45a2ddc02a55d0eec13b8b97f3a4550923564fac1f3"/>
+        <VersionInfo resourceName="ME-extractRequestPayload" version="SHA-512:73527f2e25877499df99d98dc22777317b7c213c02fd73cc3d41100d3ff33fcf839d5c089d8ad2c1b88cb9f11098aea4683933b7e97e6dfcc79986e6e0150280"/>
+        <VersionInfo resourceName="getproductsandapps" version="SHA-512:d657bc719ec3dccaa92441e772d1e5446b6ac1e0516140b5fe865599cbe2fee5b5414c28a3e54d68992eb15205146d48df49b9d214e0f32cff60caf558947834"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7fc19e8a859017a46e4127cc67874da73a62f5ac883df6b22981e0eaa1ea6f42e984426ff9a7b253a0bb7f312e4dfe3a688c62efdb4e609694029186512c7efb"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://getproductsandapps.js" version="SHA-512:abefd07ff0b8126be6ebbad748eb27916d0279b66dd5f585ecc3a8d2b8b5bf4fb973f9e4a5e3b4be24cdf09dcb2c8aeef48c9ce23e2719538d8eacdfb7e38093"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
