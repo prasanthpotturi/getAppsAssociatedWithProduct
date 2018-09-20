@@ -1,6 +1,6 @@
 # GET APPS ASSOCIATED WITH PRODUCT
-This API proxy will fetch all the apps associated with an API product. And it also masks ConsumerKey and Secret in the response.
-Currently it is two step process to manually fetch each appid and get details
+This Apigee API proxy will fetch all the apps associated with an API product with an Apigee Organization. And it also masks ConsumerKey and Secret in the response.
+Currently it is two step process to manually fetch each appid and get the corresponding app details
 
 ## Steps to run install
 1. Download and install Maven 3.0.*
@@ -23,6 +23,10 @@ org: {org-name} //organization name
 mgmturl: {management api url} //e.g: https://api.enterprise.apigee.com
 
 product: {API product name}  //provide API product name 
+
+appcounter: {overidde default app counter} //currently wrapper is design to fetch max 10 apps associated with a product
+
+#####
 
 ## Sample Response:
 
